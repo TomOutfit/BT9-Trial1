@@ -11,7 +11,7 @@ public class SpecLift extends Lift {
 
     @Override
     public String toString() {
-        return super.toString() + "," + load;
+        return super.label + ", " + load + ", " + super.type;
     }
 
     public void setData() {
